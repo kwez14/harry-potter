@@ -1,0 +1,8 @@
+:root{
+    --graydark: #252525
+}
+
+body {
+    background-color: var(--graydark);
+    color: white;
+}
