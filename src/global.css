@@ -1,8 +1,14 @@
 :root{
-    --graydark: #252525
+    --graydark: #131313;
+    --color: #ffffff;
 }
 
 body {
     background-color: var(--graydark);
-    color: white;
+    color: var(--color);
+}
+
+main {
+    margin-top: .5rem;
+    padding: 1.5rem;
 }

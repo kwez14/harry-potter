@@ -1,11 +1,11 @@
-import { Link } from "react-router-dom";
+import { useState, useEffect } from "react";
+import { Link } from 'react-router-dom';
+import styles from './Header.module.css';
 
 export function Header(){
     return(
-        <header>
-            <Link to="/">
-            Harry Potter
-            </Link>
+        <header className={styles.header}>
+            <Link to="/"><img className={styles.logo} src="https://logodownload.org/wp-content/uploads/2017/07/harry-potter-logo-2.png"></img></Link>
         </header>
     )
 }
